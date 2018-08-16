@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(22, 22, 22);
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+height: 95vh;
+width: 90%;
+position: absolute;
+top: 50%;
+left:50%; 
+transform: translate(-50%,-50%);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header{
+    font-size: 60px;
+    /*font-family: 'lato',cursive;*/
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #6444e7;
+    padding: 20px;
+    margin: 40px;
+    transform: translateX(-3px);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.weightInputForm{
+    background-color: /*#A4A4A4;*/#BFFF00;
+    padding: 10px;
+    margin: 40px;
+    width: 90%;
+    position: absolute;
+    top: 30%;
+    align-content: center;
+}
+
+.inputIncDec{
+    width: 55px;
+    border: 1px solid #e7e7e7;
+    height: 34px;
+    font-size: 18px;
+    color: inherit;
+    background-color: #fff;
+    margin:0 3%;
+    font-weight: 300;
+    transition: border 0.3s;
+}
+.btn__submit{
+    font-size: 35px;
+    background: none;
+    border: none;
+    color:#e7e7e7;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin:0 3%;
+    text-transform: uppercase;
+}
+.input{
+    
+    
+    padding: 10px;
+    margin:0 3%;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    border-radius: 2px;
+    display: inline;
+}
+ /*.input__goalWeight{
+    
+}*/
+.list{
+   position: absolute;
+   top:100%;
+   width: 90%;
+    
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: solid 2px aqua;
+    padding:20px;
+    margin: 10px;
+}
+.weightGain__list,
+.weightLoss__list{
+    position: absolute;
+    width: 50%;
+    float: left;
+    margin:10px;
+}
+.weightLoss__list{
+    position: absolute;
+    width: 50%;
+    left:50%;
+    float: left;
+    margin:10px;
+}
+
+.item{
+    background-color:#424242 ;
+    color: aliceblue;
+    margin: 20px;
+}
+.list__element__month,
+.list__element__average{
+    display: inline;
+    padding-left: 20px;
+
+}
+.list__element__value,
+list__element__gainAvg__value,
+list__element__lossAvg__value{
+display: inline;
+padding-right: 20px;
+}
+.right{
+    float: right;
+}
+.item__delete{
+    display: inline;
+    display: none;
+}
+.item__delete--btn:focus { outline: none; }
+.item__delete--btn:active { transform: translateY(2px); }
+
+.item:hover .item__delete--btn { display: block; }
+.item:hover .list__element__value { transform: translateX(-20px); }
+.item:hover .item__percentage { transform: translateX(-20px); }
+
+.display__originalWeight{
+text-align: center;
+color: #FE642E;
+width: 70px;
+height: 70px;
+background-color: #e7e7e7;
+position: absolute;
+top: 16%;
+left: 44%;
+transform: translate(50%,50%);
+display: none;
+}
+
+.circle{
+    
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside: circle(50% at 50% 50%);
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+}
+.originalWeight__text{
+    padding: 20px;
+}
+
+.list__average{
+    background-color:rgb(244, 248, 248) ;
+    color: #181717;
+    margin: 20px;
+}
