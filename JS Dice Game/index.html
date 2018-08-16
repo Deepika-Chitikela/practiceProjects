@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+     <header>The game</header> 
+
+     <div class="wrapper clearfix">
+     <div class="player-1-panel active">
+         <div class="player-name">Player 1</div>
+         
+             <img class="dice dice1" src="dice-1.png" alt="dice of player 1" id="dice1"><br/>
+       
+             <button class="roll-dice" id="roll-dice-1">Roll Dice</button>
+
+             <div class="score" id="score1">
+                 <div >Score</div>
+                 <div class="score-value score-1-value">32</div>
+             </div>
+         
+     </div>
+     <div class="player-2-panel">
+        <div class="player-name">Player 2</div>
+        <img src="dice-1.png" class="dice dice2" alt="dice of player 1" id="dice2"><br/>
+        <button class="roll-dice" id="roll-dice-2">Roll Dice</button>
+        <div class="score" id="score2">
+            <span >Score</span>
+            <div class="score-value score-2-value">32</div>
+        </div>
+        </div>
+    </div>
+    <input class="turns" type="text" placeholder="TURNS">
+    <button class="begin">lets begin!!</button>
+    <div class="winner">winner !!</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
