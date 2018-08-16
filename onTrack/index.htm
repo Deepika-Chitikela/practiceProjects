@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+            <link type="text/css" rel="stylesheet" href="style.css">
+            <title>onTrack</title>
+        </head>
+    </head>
+    <body>
+        <div class="clearfix container">
+        <header>onTrack</header>
+        <div class="display__originalWeight circle"><!--<div class="originalWeight__text"></div>--></div>
+        <form class="clearfix weightInputForm">
+            <select class="inputIncDec">
+                <option value="gain">+</option>
+                <option value="loss">-</option>
+            </select>
+            <input type="text" placeholder="Enter Your original Weight" class="input input__originalWeight">
+            <input type="text" placeholder="Month/Date" class="input input__month">
+            <input type="number" placeholder="Weight Gain/Loss" class="input input__weightchange">
+            <button type="button" class="btn__submit">Submit</button>
+        </form>
+        
+        <div class=" list container clearfix">
+            <div class="weightGain__list">
+                <h2>weight gain</h2>
+                <div class="weightGain__list__element">
+
+                        <div class="list__average"> 
+                                <div class="list__element__average">Average</div>
+                                    
+                                    <div class="right clearfix">
+                                        <div class="list__element__value list__element__gainAvg__value">0</div>
+                                    </div>
+                        </div>
+                    
+                   <!-- <div class="item"> 
+                            <div class="list__element__month">july</div>
+                                
+                                <div class="right clearfix">
+                                    <div class="list__element__value">3</div>
+                                    <div class="item__delete">
+                                        <button class="item__delete--btn">x</button>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <div class="item"> 
+                            <div class="list__element__month">july</div>
+                                
+                                <div class="right clearfix">
+                                    <div class="list__element__value">3</div>
+                                    <div class="item__delete">
+                                        <button class="item__delete--btn">x</button>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <div class="item"> 
+                            <div class="list__element__month">july</div>
+                                
+                                <div class="right clearfix">
+                                    <div class="list__element__value">3</div>
+                                    <div class="item__delete">
+                                        <button class="item__delete--btn">x</button>
+                                    </div>
+                                </div>
+                    </div>-->
+                    
+                </div> 
+            </div>
+        
+            <div class="weightLoss__list">
+                <h2>Weight loss</h2>
+                <div class="weightLoss__list__element">
+
+                        <div class="list__average"> 
+                                <div class="list__element__average">Average</div>
+                                    
+                                    <div class="right clearfix">
+                                        <div class="list__element__value list__element__lossAvg__value">0</div>
+                                    </div>
+                        </div>
+                      
+                      <!--  <div class="item"> 
+                                <div class="list__element__month">july</div>
+                                    
+                                    <div class="right clearfix">
+                                        <div class="list__element__value">3</div>
+                                        <div class="item__delete">
+                                            <button class="item__delete--btn">x</button>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="item"> 
+                                <div class="list__element__month">july</div>
+                                    
+                                    <div class="right clearfix">
+                                        <div class="list__element__value">3</div>
+                                        <div class="item__delete">
+                                            <button class="item__delete--btn">x</button>
+                                        </div>
+                                    </div>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    </body>
+</html>
